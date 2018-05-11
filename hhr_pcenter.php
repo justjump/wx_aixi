@@ -449,7 +449,7 @@
       });
       timediff.push({
         title: "最近90天",
-        value: 10
+        value: 10.1
       });
       timediff.push({
         title: "自定义",
