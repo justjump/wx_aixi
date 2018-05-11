@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>登录界面</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="css/message.css"/>
+    <style>
+    	.icon-item{
+    		margin-right: 10px;
+    		font-size: 23px; 
+    		color: #0077B3;
+    	}
+    	#img{
+    		display: block;   		
+    		width: 300px;
+    		height: 200px;
+    		margin: 10px auto;
+    		border: none;
+    		border-radius: 5px;
+    	}
+    	#pos{
+    		text-align: center;
+    		color: #666;
+    	}
+    </style>
+</head>
+<body>	
+	<div class="contianer">
+		<ul class="list-group">
+		    <li class="list-group-item"  onclick="captureImage()">		    	
+		    	<a href="">		    	
+		            <i class=" icon-camera"  style="color: #0077B3 ;"></i> 拍照
+		        </a>
+		    </li>
+		    <li class="list-group-item" onclick="getLocation()">
+		    	<a href="">		    	
+		              <i class="icon-item icon-map-marker"></i>位置
+		        </a>
+		    </li>
+		     <li class="list-group-item" onclick="clicked('function/code.html',true,true)">
+		    	<a href="">		    	
+		           <i class="icon-item icon-hand-right"></i>扫一扫
+		        </a>
+		    </li>
+		    
+        </ul>
+        <img src="" alt="" id="img"/>
+        <div id="pos" style=""></div>
+	</div>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+			// 扩展API加载完毕后调用onPlusReady回调函数 
+		document.addEventListener( "plusready", onPlusReady, false );
+		// 扩展API加载完毕，现在可以正常调用扩展API 
+		function onPlusReady() {
+			//console.log("plusready");
+			plus.io.resolveLocalFileSystemURL('_doc/',function(entry){
+				entry.getDirectory("camera",{
+					create:true
+				},function(dir){
+					picRoot=dir.toLocalURL();
+					console.log("摄像头目录对象"+dir.toLocalURL());
+				},function(error){
+					alert("路径未能获取");
+				});
+			},function(error){
+				alert("路径未能获取");
+			});
+		}
+		// 拍照
+		function captureImage(){
+			var cmr = plus.camera.getCamera();
+			var res = cmr.supportedImageResolutions[0];
+			var fmt = cmr.supportedImageFormats[0];
+			console.log("Resolution: "+res+", Format: "+fmt);
+			cmr.captureImage( function( path ){
+				plus.io.resolveLocalFileSystemURL(path,function(entry){
+					var localUrl=entry.toLocalURL();
+					document.getElementById("img").src=localUrl;//将照片显示在指定位置
+				});
+			},
+			function(error){
+				alert("没有选择照片");
+			},{
+				filename:picRoot,
+				resolution:res,
+				format:fmt
+			}
+			
+			);
+		}
+       //显示位置
+        var pos=document.getElementById("pos");
+        function getLocation(){
+		if(plus.geolocation){
+			plus.geolocation.getCurrentPosition(showPosition);
+		}else{
+			pos.innerHTML="获取位置信息失败";
+		}
+		}
+		function showPosition(position){
+			pos.innerHTML="当前维度为:"+position.coords.latitude+
+			"<br/>当前经度为："+position.coords.longitude+
+			"<br/>当前位置："+position.addresses;
+		}		
+	(function(w){
+
+		  // 处理点击事件
+		var openw=null,waiting=null;
+		
+		w.clicked=function(id,wa,ns,ws){
+			if(openw){//避免多次打开同一个页面
+				return null;
+			}
+			if(w.plus){
+				wa&&(waiting=plus.nativeUI.showWaiting());
+				ws=ws||{};
+				ws.scrollIndicator||(ws.scrollIndicator='none');
+				ws.scalable||(ws.scalable=false);
+				var pre='';//'http://192.168.1.178:8080/h5/';
+				openw=plus.webview.create(pre+id,id,ws);
+				ns||openw.addEventListener('loaded',function(){//页面加载完成后才显示
+		//		setTimeout(function(){//延后显示可避免低端机上动画时白屏
+					openw.show(as);
+					closeWaiting();
+		//		},200);
+				},false);
+				openw.addEventListener('close',function(){//页面关闭后可再次打开
+					openw=null;
+				},false);
+				return openw;
+			}else{
+				w.open(id);
+			}
+			return null;
+		};
+		w.closeWaiting=function(){
+			waiting&&waiting.close();
+			waiting=null;
+		}
+})(window);
+</script>
+</body>
+</html>

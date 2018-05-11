@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>登录界面</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/message.css" />
+		<script src="js/mui.min.js"></script>
+		<script src="js/app.js"></script>
+	</head>
+
+	<body>
+		<div class="contianer">
+			<ul id="list" class="list-group">
+				<li class="list-group-item" hf="personal/myself.html">
+					<a href="personal/myself.html">
+						<img class="chat-object" src="images/me.jpg">
+						<div class="chat-body">
+							<h4 id="nickname" style="font-weight: normal;"></h4>
+							<p id="account" class="chat-ellipsis"></p>
+						</div>
+					</a>
+				</li>
+				<li class="list-group-item" hf="personal/chat.html">
+					<a href="personal/chat.html">
+						聊天
+					</a>
+				</li>
+				<li class="list-group-item" hf="personal/privacy.html">
+					<a href="personal/privacy.html">
+						隐私
+					</a>
+				</li>
+				<li class="list-group-item" hf="personal/wurao.html">
+					<a href="personal/wurao.html">
+						勿扰模式
+					</a>
+				</li>
+			</ul>
+			<form role="form" class="form-horizontal" style="margin: 20px auto;">
+				<input id="exit" class="btn btn-default btn-login" type="button" value="退出">
+			</form>
+		</div>
+		<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+			window.addEventListener('newsId', function() {
+				var currentUser = localStorage.getItem('$currentUser');
+				var currentNick = localStorage.getItem('$currentNickname');
+				console.log("昵称：" + currentNick);
+				console.log("账号：" + currentUser);
+				document.getElementById("account").innerHTML = "账号：" + currentUser;
+				document.getElementById("nickname").innerHTML = currentNick;
+			}, false);
+			var nickname = document.getElementById("nickname").innerHTML;
+			var account = document.getElementById("account").innerHTML.substring(3);
+			mui('#list').on('tap', 'li', function() {
+				var hf = this.getAttribute('hf');
+				mui.openWindow({
+					url: hf,
+					id: hf,
+					extras: {
+						nickname: nickname,
+						account: account
+					}
+				});
+			});
+
+			//退出操作
+
+			document.getElementById("exit").addEventListener('tap', function() {
+				if(mui.os.ios) {
+					app.setState({});
+					mui.openWindow({
+						url: 'login.html',
+						id: 'login',
+						show: {
+							aniShow: 'pop-in'
+						},
+						waiting: {
+							autoShow: false
+						}
+					});
+					return;
+				}
+
+				var btnArray = [{
+					title: "退出当前账号"
+				}, {
+					title: "退出应用"
+				}];
+				plus.nativeUI.actionSheet({ //弹出系统选择按钮框
+					cancel: "取消", //选择按钮框样式
+					buttons: btnArray
+				}, function(event) { //选择按钮框关闭后的回调函数
+					var index = event.index;
+					console.log("index:" + index);
+					switch(index) {
+						case 1:
+							//注销账号
+							//app.setState({});
+							/*
+							 * 注意：
+							 * 1、因本示例应用启动页就是登录页面，因此注册成功后，直接显示登录页即可；
+							 * 2、如果真实案例中，启动页不是登录页，则需修改，使用mui.openWindow打开真实的登录页面
+							 */
+							plus.webview.getLaunchWebview().show();
+							//							plus.webview.
+
+							//若启动页不是登录页，则需通过如下方式打开登录页
+							/*mui.openWindow({
+						url: 'login.html',
+						id: 'login',
+						show: {
+							aniShow: 'pop-in'
+						}
+					});*/
+							break;
+						case 2:
+							plus.runtime.quit();
+							break;
+						default:
+							//alert(2);
+							break;
+					}
+				});
+			}, false);
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,148 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #fff;
+}
+a:hover,a:link,a:visited{
+	text-decoration: none;
+}
+#header{
+	 text-align: left;
+	 /* background: url(../images/bg1.jpg) no-repeat center/auto 100%; */
+	 height: 35vw;
+	 z-index: 2000;
+	 min-height: 100px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4458fa+0,5bc7ef+100 */
+	 background: #4aa7f7; /* Old browsers */
+	 background-image: linear-gradient(135deg,  #48a7f7 0%,#5dd0ef 100%);
+	 background-repeat: no-repeat;
+	 background-position: center bottom;
+	 background-size: contain;
+}
+#header p{
+	color: #fff;
+	font-size: 16px;
+	line-height: 44px;
+	margin: 0 auto;
+	/* margin-left: 10vw; */
+	margin-top: 20px;
+}
+#header p.logo{}
+#header p.txt1{
+    margin: 0;
+    margin-left: 15vw;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.form-horizontal{
+	margin: 80px auto;
+	width: 80%;
+}
+.body_reg{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.body_reg .ft{background: url(../images/bg3.jpg) no-repeat center top/100% auto;height: 40vw;}
+.container_reg{
+    flex: 1;
+}
+.frm_reg{}
+.control-label{
+	font-weight: normal;	
+}
+.form-control{
+	background-color: #fff;
+	height: 50px;
+	margin-bottom: 10px;
+	box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.09) inset;
+	color: #333;
+	border: 1px solid #5196f3;
+	font-size: 16px;
+	border-radius: 50px;
+	padding-left: 3em;
+}
+.btn-login,.btn-login:hover,.btn-login:focus{
+	background-color: #00BBFF;
+    border-color: #00BBFF;
+    border-width: 0;
+    outline: none;
+    color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 50px;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 16px;    
+}
+
+.link-area{
+	text-align: center;
+	padding: 10px;
+	color: #333;
+}
+.action-back{
+	
+	float: left;
+	font-size:20px;
+	color: #fff;
+	line-height: 44px;
+	margin-left: 10px;
+}
+.icon-angle-left{
+	float: left;
+	font-size:25px;
+	color: #fff;
+	line-height: 44px;
+	margin-left: 10px;
+}
+.tab-item{
+	display: table-cell;
+    overflow: hidden;
+    width: 1%;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.tab-item,.tab-icon{
+	top: 3px;
+    width: 24px;
+    height: 24px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 34px;
+}
+.tab-icon{
+	font-size: 24px;
+    position: relative;
+    z-index: 20;    
+    font-size: 20px;
+    font-weight: 400;
+      
+}
+.tab-label{
+	display: table-cell;
+    overflow: hidden;
+    width: 1%;
+    height: 24px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #929292;
+}
+.list-group-item{
+	padding: 25px;
+}
+.list-group-item a{
+	color: #000;
+	font-size: 16px;	
+}
+.navbar-fixed-bottom{
+	z-index: 2000;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>登录界面</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="css/message.css"/>
+    <script src="js/mui.min.js"></script>
+    <script src="js/common.js"></script>
+    <style>
+    	body{
+				background-color: #EFEFF4;
+			}
+    	
+    	.adrs{
+    		color: #000;
+    	
+    	}
+    	.list{
+    		padding: 10px;
+    	}
+        .btn-send,
+        .btn-vedio,
+        .btn-vedio:hover,
+        .btn-vedio:focus,
+        .btn-send:hover,
+        .btn-send:focus
+        {
+        	width: 93%;
+        	
+        }
+        .btn-vedio,
+        .btn-vedio:hover,
+        .btn-vedio:focus
+        {
+        	background: #fff;
+        	color: #000;
+        
+        	
+        }
+        .btn,
+        .btn:hover,
+        .btn:focus
+        {
+        	margin-bottom: 15px;
+        	outline: none;
+        }
+ 
+    </style>
+</head>
+<body>
+	<header id="header">
+		<a href=""><i class="mui-action-back icon-angle-left" onclick="back();"></i></a>
+		<p id="title">详细资料</p>
+	</header>
+	<div class="contianer">
+		<ul class="list-group">
+			<li class="list-group-item">
+		    	<a href="">
+		    		  <img class="chat-object" src="images/dp.jpg">
+		               <div class="chat-body">
+		                   <p id="name" class="text"></p>
+		                   <p id="user" class="chat-ellipsis"></p>		                  
+		               </div>
+		        </a>
+		    </li>
+		</ul>
+		<ul class="list-group" >
+			<li class="list-group-item list" >		   		    				             		                
+		                  <p class="adrs">地区&nbsp;&nbsp; 中国 &nbsp;&nbsp;上海</p>		              
+		    </li>
+		</ul>
+        <ul class="list-group">
+			<li class="list-group-item list">		   		    				             		                
+		              <p id="phone" class="adrs"></p>		              
+		    </li>
+		</ul>
+				     
+    <input id="send" class="btn btn-send btn-login" type="button" value="发消息">
+    <input id="vedio" class="btn btn-vedio btn-login" type="button" value="视频聊天">		
+	</div>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">	
+	mui.plusReady(function(){
+				var self=plus.webview.currentWebview();
+				document.getElementById("name").innerHTML=self.name;
+				document.getElementById("user").innerHTML="账号："+self.user;			
+				document.getElementById("phone").innerHTML="电话号码："+self.phone;
+				var curName=document.getElementById("name").innerHTML;
+		        var send=document.getElementById("send");
+				var vedio=document.getElementById("vedio");
+				
+				send.addEventListener('click',function(){
+					mui.openWindow({
+						url:'mes-content.html',
+						id:'mes-content.html',
+						extras:{
+							name:curName
+						}
+					})
+				},false)
+				});
+		
+</script>	
+</body>
+</html>

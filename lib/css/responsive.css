@@ -1,0 +1,76 @@
+
+
+
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone5 */
+br.br_ip5{display: block;}
+.blank_ip6{display: none;}
+.chongzhijilu .weui-cell .weui-cell__hd{width: 42%;}
+.body_person .xfjl .weui-tab__bd-item .weui-cell__ft{text-align: center;flex:1;}
+.body_reg .frm_reg{width: 100%;padding-left: 8px;padding-right: 8px;}
+.body_using .wc1 {
+    padding-top: 15px;
+    background: none;
+}
+.body_using .weui-cell{}
+
+}
+@media only screen and (max-device-width :480px){
+br.br_ip5{display: block;}
+.blank_ip6{display: none;}
+.chongzhijilu .weui-cell .weui-cell__hd{width: 42%;}
+.body_person .xfjl .weui-tab__bd-item .weui-cell__ft{text-align: center;flex:1;}
+.body_reg .frm_reg{width: 100%;padding-left: 8px;padding-right: 8px;
+ }
+.body_using .wc1 {
+    padding-top: 15px;
+    background: none;
+}
+.body_using .weui-cell{
+    padding: 5px 15px;
+}
+
+}
+@media only screen and (min-device-width :481px){ 
+
+.body_reg .frm_reg{width: 96%;padding-left: 8px;padding-right: 8px;}
+br.br_ip5{display: none;}
+.blank_ip6{display: inline;}
+
+ .body_using .wc1 {
+    padding-top: 30vw;
+    background: url(../images/using1.png) no-repeat center top/auto 28vw;
+}
+.body_using .weui-cell{}
+
+}
+
+/*6*/
+@media (min-device-width : 375px) and (max-device-width : 667px) and (-webkit-min-device-pixel-ratio : 2){
+
+.body_reg .frm_reg{width: 96%;padding-left: 8px;padding-right: 8px;}
+br.br_ip5{display: none;}
+.blank_ip6{display: inline;}
+
+ .body_using .wc1 {
+    padding-top: 26vw;
+    background: url(../images/using1.png) no-repeat center 2vw/auto 24vw;
+}
+.body_using .weui-cell{
+}
+ }
+
+/*6+*/
+@media (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-min-device-pixel-ratio : 3){
+.body_reg .frm_reg{width: 96%;padding-left: 8px;padding-right: 8px;}
+br.br_ip5{display: none;}
+.blank_ip6{display: inline;}
+ }
+
+/*魅族*/
+@media only screen and (min-device-width :1080px) and (-webkit-min-device-pixel-ratio : 2.5){ }
+
+/*mate7*/
+@media only screen and (min-device-width :1080px) and (-webkit-min-device-pixel-ratio : 3){ }
+
+/*4 4s*/
+@media only screen and (device-height :480px) and (-webkit-device-pixel-ratio:2){ }

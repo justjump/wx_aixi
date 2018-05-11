@@ -1,0 +1,107 @@
+<?php 
+require('meta.html')
+ ?>
+		<title>登录界面</title>
+	<?php 
+require('header.html')
+ ?>	
+	<body>
+		<header id="header">
+			<p>欢迎登录</p>
+		</header>
+		<div class="contianer">
+			<form role="form" class="form-horizontal">
+				<input type="text" class="form-control" id="username" placeholder="账号">
+				<input type="password" class="form-control" id="password" placeholder="密码">
+				<button class="btn btn-default btn-login" id="login" type="button" onclick="check()">登录</button>
+				<div class="link-area" id="list">
+					<a id='reg' style="color: #777;text-decoration: underline;" href="register.html">注册账号</a> <span class="spliter">
+				</div>
+		</form>
+	</div>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/mui.min.js"></script>
+<script type="text/javascript">
+	//预加载主页面,使其不会有加载留白的情况
+	mui.init({  
+	  preloadPages:[{  
+	    id:'mian.html',  
+	    url:'mian.html'             
+	  }  
+	  ]  
+	});  
+	//触发自定义事件
+	var detailPage = null;
+	document.getElementById("login").addEventListener('click',function(){		
+		if(!detailPage){
+			 detailPage = plus.webview.getWebviewById('personal.html');//获得想要传递参数的页面
+		}
+		//触发person页面的newsId事件
+		mui.fire(detailPage,'newsId',{id:'login.html'});//id可选
+		var user=document.getElementById("username").value;
+		var psw=document.getElementById("password").value;		  
+		if(user==''||psw==''){
+			swal("","不能为空");
+			return;
+		}
+		if(!localStorage.getItem("username")){
+      		mui.toast("请先注册");
+      	}else{  //检测用户名是否正确
+      		var loadMsg=localStorage.getItem("usermessage").substring(5);//截取数据，去除字符串里默认的值"所有信息"
+      		console.log("loadMsg:"+loadMsg);
+      		var string_lMsg='{"pepole":['+loadMsg+']}';//写成JSON格式的字符串
+      		console.log(string_lMsg)
+      		var json_str = JSON.parse(string_lMsg);//将字符串转换成JSON格式      		
+      		json_str=eval(json_str.pepole);//遍历JSON对象      		
+      		//console.log(json_str[i]);
+      		var arr=[];//空数组用来存放用户名
+      		var arrPsw=[];//空数组用来存放密码
+      		var arrNick=[];//空数组用来存放昵称
+      		for(var i=0;i<json_str.length;i++){
+      			arr.push(json_str[i].username);      			
+      			arrPsw.push(json_str[i].password); 
+      			arrNick.push(json_str[i].nickname);
+      		}
+      	     //console.log("昵称："+arrNick);
+      		//console.log("arr:"+typeof arr[arr.indexOf(user)]);//string
+      		var current=arr[arr.indexOf(user)];
+      		var currentNick=arrNick[arr.indexOf(user)];
+      		//console.log("昵称："+arrNick[arr.indexOf(user)]);
+      		localStorage.setItem('$currentUser',current);
+      		localStorage.setItem('$currentNickname',currentNick);
+      		console.log(localStorage.getItem('$currentNickname'));
+      		console.log(localStorage.getItem('$currentUser'));
+      		if(arr.indexOf(user)==-1){
+      			swal("","用户名有错");
+      			return;
+      			//alert(arr.indexOf(user));
+      		}else{
+      			var index=arr.indexOf(user);      			
+      			if(arrPsw[index]!==psw){
+      				swal("","密码有错");
+      				return;
+      			}else{      					
+      			mui.openWindow({
+      				url:'mian.html',
+      				id:'mian.html'
+      			});//登陆成功进入首页
+      		}
+      		}
+      	            	
+      	}
+      	      	
+      
+	},false)
+	
+     
+      mui('#list').on('tap','a',function(){
+      	var hf=this.getAttribute('href');
+      	mui.openWindow({
+      		url:hf,
+      		id:hf
+      	})
+      })
+</script>
+</body>
+</html>

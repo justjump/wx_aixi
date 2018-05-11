@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>nativeUI Example</title>
+		<script type="text/javascript">
+// H5 plus事件处理
+function plusReady(){
+}
+if(window.plus){
+	plusReady();
+}else{
+	document.addEventListener("plusready",plusReady,false);
+}
+// 选择日期
+function pickDate(){
+	plus.nativeUI.pickDate( function(e){
+		var d=e.date;
+		document.getElementById("k").innerHTML= "选择的日期："+d.getFullYear()+"-"+(d.getMonth()+1)+"-"+d.getDate();
+		console.log( );
+	},function(e){
+		console.log( "未选择日期："+e.message );
+	});
+}
+		</script>
+	</head>
+	<body>
+	弹出系统日期选择对话框
+	<br/>
+	<button onclick="pickDate()">选择日期</button>
+	<div id="k"></div>
+	</body>
+</html>
+			

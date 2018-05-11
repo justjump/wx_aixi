@@ -1,0 +1,291 @@
+{
+  "index.html": {
+    "resources": [
+      "css/common.css",
+      "js/bootstrap.min.js",
+      "css/bootstrap.min.css"
+    ],
+    "refer": []
+  },
+  "login.html": {
+    "resources": [
+      "css/common.css",
+      "js/bootstrap.min.js",
+      "css/bootstrap.min.css",
+      "register.html",
+      "css/font-awesome.min.css",
+      "mian.html",
+      "font/fontawesome-webfont.woff",
+      "js/mui.min.js",
+      "css/sweetalert.css",
+      "js/sweetalert.min.js"
+    ],
+    "refer": [
+      "register.html",
+      "mian.html"
+    ]
+  },
+  "register.html": {
+    "resources": [
+      "css/common.css",
+      "js/bootstrap.min.js",
+      "css/bootstrap.min.css",
+      "login.html",
+      "font/fontawesome-webfont.woff",
+      "css/font-awesome.min.css",
+      "js/common.js",
+      "css/sweetalert.css",
+      "js/mui.min.js",
+      "js/sweetalert.min.js"
+    ],
+    "refer": [
+      "login.html"
+    ]
+  },
+  "mian.html": {
+    "resources": [
+      "css/common.css",
+      "css/font-awesome.min.css",
+      "js/bootstrap.min.js",
+      "css/bootstrap.min.css",
+      "font/fontawesome-webfont.woff",
+      "login.html",
+      "message.html",
+      "contact.html",
+      "pengyouquan.html",
+      "personal.html",
+      "js/mui.min.js"
+    ],
+    "refer": [
+      "login.html",
+      "pengyouquan.html",
+      "personal.html",
+      "message.html",
+      "contact.html"
+    ]
+  },
+  "message.html": {
+    "resources": [
+      "css/common.css",
+      "css/font-awesome.min.css",
+      "js/bootstrap.min.js",
+      "css/bootstrap.min.css",
+      "images/dp.jpg",
+      "css/message.css",
+      "images/li.jpg",
+      "images/lu.jpg",
+      "font/fontawesome-webfont.woff",
+      "mes-content.html",
+      "js/mui.min.js"
+    ],
+    "refer": [
+      "mes-content.html"
+    ]
+  },
+  "contact.html": {
+    "resources": [
+      "css/common.css",
+      "css/message.css",
+      "css/font-awesome.min.css",
+      "js/bootstrap.min.js",
+      "css/bootstrap.min.css",
+      "font/fontawesome-webfont.woff",
+      "js/mui.min.js"
+    ],
+    "refer": [
+      "detail.html"
+    ]
+  },
+  "personal.html": {
+    "resources": [
+      "images/me.jpg",
+      "css/common.css",
+      "css/message.css",
+      "css/font-awesome.min.css",
+      "js/bootstrap.min.js",
+      "css/bootstrap.min.css",
+      "font/fontawesome-webfont.woff",
+      "js/mui.min.js",
+      "personal/myself.html",
+      "personal/wurao.html",
+      "js/common.js",
+      "js/app.js"
+    ],
+    "refer": [
+      "personal/myself.html",
+      "personal/chat.html",
+      "personal/privacy.html",
+      "personal/wurao.html",
+      "login.html"
+    ]
+  },
+  "pengyouquan.html": {
+    "resources": [
+      "font/fontawesome-webfont.woff",
+      "css/common.css",
+      "css/message.css",
+      "css/font-awesome.min.css",
+      "js/bootstrap.min.js",
+      "css/bootstrap.min.css",
+      "js/mui.min.js",
+      "js/common.js"
+    ],
+    "refer": [
+      "function/code.html",
+      "function/position.html",
+      "function/takephoto.html"
+    ]
+  },
+  "mes-content.html": {
+    "resources": [
+      "font/fontawesome-webfont.woff",
+      "images/dp.jpg",
+      "images/me.jpg",
+      "css/common.css",
+      "css/message.css",
+      "css/font-awesome.min.css",
+      "js/bootstrap.min.js",
+      "css/bootstrap.min.css",
+      "message.html",
+      "js/mui.min.js",
+      "js/common.js"
+    ],
+    "refer": [
+      "message.html"
+    ]
+  },
+  "detail.html": {
+    "resources": [
+      "font/fontawesome-webfont.woff",
+      "images/dp.jpg",
+      "js/mui.min.js",
+      "css/common.css",
+      "css/message.css",
+      "css/font-awesome.min.css",
+      "js/bootstrap.min.js",
+      "css/bootstrap.min.css",
+      "js/common.js"
+    ],
+    "refer": [
+      "mes-content.html"
+    ]
+  },
+  "function/position.html": {
+    "resources": [
+      "font/fontawesome-webfont.woff",
+      "js/mui.min.js",
+      "css/common.css",
+      "css/message.css",
+      "css/font-awesome.min.css",
+      "js/bootstrap.min.js",
+      "css/bootstrap.min.css"
+    ],
+    "refer": []
+  },
+  "function/code.html": {
+    "resources": [
+      "js/mui.min.js",
+      "js/common.js",
+      "js/bootstrap.min.js",
+      "css/bootstrap.min.css"
+    ],
+    "refer": []
+  },
+  "test.html": {
+    "resources": [
+      "font/fontawesome-webfont.woff",
+      "js/common.js",
+      "js/mui.min.js",
+      "css/common.css",
+      "js/bootstrap-switch.js",
+      "css/message.css",
+      "css/font-awesome.min.css",
+      "js/bootstrap.min.js",
+      "css/bootstrap-switch.css",
+      "css/bootstrap.min.css"
+    ],
+    "refer": []
+  },
+  "personal/chat.html": {
+    "resources": [
+      "font/fontawesome-webfont.woff",
+      "css/swtich.css",
+      "js/mui.min.js",
+      "css/common.css",
+      "css/font-awesome.min.css",
+      "js/bootstrap.min.js",
+      "css/bootstrap.min.css",
+      "js/common.js"
+    ],
+    "refer": []
+  },
+  "personal/myself.html": {
+    "resources": [
+      "font/fontawesome-webfont.woff",
+      "personal.html",
+      "js/common.js",
+      "personal/more.html",
+      "js/mui.min.js",
+      "images/me.jpg",
+      "css/common.css",
+      "css/message.css",
+      "css/font-awesome.min.css",
+      "js/bootstrap.min.js",
+      "css/bootstrap.min.css"
+    ],
+    "refer": [
+      "personal.html",
+      "personal/more.html"
+    ]
+  },
+  "personal/wurao.html": {
+    "resources": [
+      "personal.html",
+      "js/common.js",
+      "css/swtich.css",
+      "js/mui.min.js",
+      "js/bootstrap.min.js",
+      "css/bootstrap.min.css"
+    ],
+    "refer": [
+      "personal.html"
+    ]
+  },
+  "personal/privacy.html": {
+    "resources": [
+      "js/common.js",
+      "css/swtich.css",
+      "js/mui.min.js",
+      "js/bootstrap.min.js",
+      "css/bootstrap.min.css"
+    ],
+    "refer": []
+  },
+  "personal/more.html": {
+    "resources": [
+      "font/fontawesome-webfont.woff",
+      "js/mui.min.js",
+      "css/common.css",
+      "css/message.css",
+      "css/font-awesome.min.css",
+      "js/bootstrap.min.js",
+      "css/bootstrap.min.css",
+      "personal/myself.html"
+    ],
+    "refer": [
+      "personal/myself.html"
+    ]
+  },
+  "function/takephoto.html": {
+    "resources": [
+      "font/fontawesome-webfont.woff",
+      "js/mui.min.js",
+      "css/common.css",
+      "css/message.css",
+      "css/font-awesome.min.css",
+      "js/bootstrap.min.js",
+      "css/bootstrap.min.css"
+    ],
+    "refer": []
+  }
+}

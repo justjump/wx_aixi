@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>登录界面</title>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/message.css"/>
+    <script src="../js/mui.min.js"></script>
+    <script src="../js/common.js"></script>
+    <style>
+    	body{
+				background-color: #EFEFF4;
+			}
+			.list-group{
+				margin-top: 15px;
+			}
+			.list-fr{
+				float: right;
+				margin-top: -10px;
+			}
+			.clear{
+				clear: both;
+			}
+			   	    	
+    </style>
+</head>
+<body>
+	<header id="header">
+		<a href=""><i class="mui-action-back icon-angle-left" onclick="back()"></i></a>
+		<p id="title">个人信息</p>
+	</header>
+	<div class="contianer">
+		<ul id="list" class="list-group">
+		   <li class="list-group-item">
+		    	<a href="">		    	
+		            头像
+		       </a>
+		       <img class="list-fr" src="../images/me.jpg" alt="" style="width: 50px;height: 50px;" />
+		       <div class="clear"></div>
+		   </li>
+		    <li class="list-group-item">
+		    	<a href="">		    	
+		            账号
+		       </a>
+		      <span class="list-fr" id="account">sfghhhh</span>
+		   </li>	
+		    <li class="list-group-item">
+		      <a href="">		    	
+		           昵称
+		      </a>
+		      <span class="list-fr" id="nickname">sfghhhh</span>
+		   </li>
+		   <li class="list-group-item" onclick="pickDate()">
+		    	<a href="">		    	
+		            生日
+		       </a>
+		      <span class="list-fr" id="date">1998-12-12</span>
+		   </li>	
+		   <!-- <li id="more" class="list-group-item">
+		    	<a href="more.html">		    	
+		           更多
+		     </a>		   
+		   </li>	-->
+        </ul>
+	</div>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+<script type="text/javascript">	
+	mui.plusReady(function(){
+				var self=plus.webview.currentWebview();
+				document.getElementById("account").innerHTML=self.account;
+				document.getElementById("nickname").innerHTML=self.nickname;
+				document.getElementById("more").addEventListener('tap',function(){
+					mui.openWindow({
+						url:'more.html',
+						id:'more'
+					})
+				},false)
+			
+		});		
+			// 选择日期
+			function pickDate(){
+				plus.nativeUI.pickDate( function(e){
+					var d=e.date;
+					document.getElementById("date").innerHTML=d.getFullYear()+"-"+(d.getMonth()+1)+"-"+d.getDate();
+					console.log( );
+				},function(e){
+					console.log( "未选择日期："+e.message);
+				});
+			}
+</script>	
+</body>
+</html>

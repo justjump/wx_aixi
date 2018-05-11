@@ -1,0 +1,1296 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"tras",
+				"transition"
+			],
+			[
+				"cover",
+				"cover_cz"
+			],
+			[
+				"remocl",
+				"removeClass"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"ap",
+				"append	.append()"
+			],
+			[
+				"subm",
+				"submenu"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"sel",
+				"select"
+			],
+			[
+				"read",
+				"ready	jQuery(document).ready"
+			],
+			[
+				"trast",
+				"transition"
+			],
+			[
+				"gutt",
+				"gutter-32	(media.css)"
+			],
+			[
+				"a_im",
+				"a_img0"
+			],
+			[
+				"pare",
+				"parent	.parent()"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"st",
+				"style"
+			],
+			[
+				"strrep",
+				"str_replace"
+			],
+			[
+				"str_rep",
+				"str_replace"
+			],
+			[
+				"this",
+				"this	$(this)"
+			],
+			[
+				"dsi",
+				"display"
+			],
+			[
+				"paret",
+				"parent	.parent()"
+			],
+			[
+				"the_ti",
+				"the_title	WP Filter Name"
+			],
+			[
+				"op",
+				"option	(s_fuwu.html)"
+			],
+			[
+				"col",
+				"collapsed"
+			],
+			[
+				"texta",
+				"text-align"
+			],
+			[
+				"visb",
+				"visibility"
+			],
+			[
+				"getd",
+				"getDay()	Date"
+			],
+			[
+				"getmon",
+				"getMonth()	Date"
+			],
+			[
+				"clo",
+				"color"
+			],
+			[
+				"mor",
+				"more_round"
+			],
+			[
+				"item",
+				"item1"
+			],
+			[
+				"cont",
+				"content"
+			],
+			[
+				"chan",
+				"channelname"
+			],
+			[
+				"maxw",
+				"max-width"
+			],
+			[
+				"p_img",
+				"p_img0	(index.html)"
+			],
+			[
+				"nait",
+				"nailthumb.1	(meta.html)"
+			],
+			[
+				"body_pro",
+				"body_prolist	(phone.css)"
+			],
+			[
+				"mouse",
+				"mouseover	.mouseover()"
+			],
+			[
+				"clear",
+				"clearfix"
+			],
+			[
+				"value",
+				"value='1"
+			],
+			[
+				"dep",
+				"depth1	(index.html)"
+			],
+			[
+				"tri",
+				"transition"
+			],
+			[
+				"bg",
+				"bg_6bx.png	w:150 h:182"
+			],
+			[
+				"gutter",
+				"gutter-42	(createHTML.js)"
+			],
+			[
+				"deay",
+				"delay	(index.html)"
+			],
+			[
+				"img",
+				"imagesLoaded	(index.html)"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"po",
+				"pointer"
+			],
+			[
+				"borc",
+				"border-color"
+			],
+			[
+				"bgsj",
+				"bg_sj1.png	w:80 h:38"
+			],
+			[
+				"tr",
+				"transform"
+			],
+			[
+				"t",
+				"transition"
+			],
+			[
+				"borderr",
+				"border-right"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"bg_ys",
+				"bg_ys2.png	w:1920 h:1128"
+			],
+			[
+				"back",
+				"background	(bottom.html)"
+			],
+			[
+				"conta",
+				"container"
+			],
+			[
+				"visibili",
+				"visibility	Style CSS"
+			],
+			[
+				"scal",
+				"scale	(animate.css)"
+			],
+			[
+				"verl",
+				"vertical-align"
+			],
+			[
+				"indexo",
+				"indexOf	(common1.js)"
+			],
+			[
+				"settim",
+				"setTimeout(func, delay)	Window"
+			],
+			[
+				"rep",
+				"replace"
+			],
+			[
+				"fou",
+				"focus	.focus()"
+			],
+			[
+				"info",
+				"infoID"
+			],
+			[
+				"thed",
+				"theduration"
+			],
+			[
+				"trasf",
+				"transform"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"nail",
+				"nailthumb	(jquery.nailthumb.1.0.min.js)"
+			],
+			[
+				"thu",
+				"thumbnail"
+			],
+			[
+				"tea",
+				"text-align"
+			],
+			[
+				"depth2",
+				"depth2li"
+			],
+			[
+				"sbum",
+				"submenu"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"autop",
+				"autoPage	(index.html)"
+			],
+			[
+				"backgc",
+				"background-color"
+			],
+			[
+				"bgi",
+				"bg_icon2.png	w:1098 h:245"
+			],
+			[
+				"ind",
+				"index"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"infor",
+				"info_remark"
+			],
+			[
+				"repa",
+				"replace	(index.html)"
+			],
+			[
+				"a",
+				"arrow.png	w:36 h:29"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"nai",
+				"nailthumb	(index.html)"
+			],
+			[
+				"uploa",
+				"uploads	(bottom.html)"
+			],
+			[
+				"border-co",
+				"border-collapse"
+			],
+			[
+				"bordr-co",
+				"border-collapse"
+			],
+			[
+				"icon",
+				"icon1"
+			],
+			[
+				"CH",
+				"ChannelID"
+			],
+			[
+				"mouso",
+				"mouseover	.mouseover()"
+			],
+			[
+				"posr",
+				"pos-r	position: relative;"
+			],
+			[
+				"ima",
+				"imagesloaded	(footer.html)"
+			],
+			[
+				"der",
+				"designer"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"trasit",
+				"transition"
+			],
+			[
+				"off",
+				"offset	.offset()"
+			],
+			[
+				"zixu",
+				"zixunzhuanxian	(common_cn.php)"
+			],
+			[
+				"wdi",
+				"width"
+			],
+			[
+				"media",
+				"@media	@media ${1:screen} {\n	${0}\n}"
+			],
+			[
+				"lists",
+				"list-style"
+			],
+			[
+				"setti",
+				"setInterval(func, delay)	Window"
+			],
+			[
+				"charg",
+				"chargeid	(Admin_model.php)"
+			],
+			[
+				"traf",
+				"transform"
+			],
+			[
+				"bg_a",
+				"bg_about2.jpg	w:1190 h:220"
+			],
+			[
+				"tag",
+				"tagName"
+			],
+			[
+				"Copy",
+				"Copyright	(photoswipe.css)"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"mt",
+				"mt24	(common.css)"
+			],
+			[
+				"mih",
+				"min-height"
+			],
+			[
+				"cru",
+				"crumbs"
+			],
+			[
+				"bod",
+				"body_product"
+			],
+			[
+				"mainc",
+				"mainc_ciye"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"logo",
+				"logo_c.png	w:100 h:307"
+			],
+			[
+				"fang_",
+				"fang_2.jpg	w:220 h:192"
+			],
+			[
+				"body_nes",
+				"body_news_detail	(common.css)"
+			],
+			[
+				"acti",
+				"active_nav	(common1.js)"
+			],
+			[
+				"appe",
+				"append"
+			],
+			[
+				"whi",
+				"white-space"
+			],
+			[
+				"substr",
+				"substring(indexA)	String"
+			],
+			[
+				"sub",
+				"subbt	(common.css)"
+			],
+			[
+				"out",
+				"outerWidth	.outerWidth()"
+			],
+			[
+				"borderco",
+				"border-color"
+			],
+			[
+				"co",
+				"console.	console.log()"
+			],
+			[
+				"body_p",
+				"body_products_article	(common.css)"
+			],
+			[
+				"borderl",
+				"border-left"
+			],
+			[
+				"manin",
+				"maincontent	(contact.html)"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 152.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"ahk",
+				"Set Syntax: Haskell"
+			],
+			[
+				"vue",
+				"Set Syntax: Vue Component"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"todo",
+				"TodoReview: Open Files"
+			],
+			[
+				"INSTA",
+				"Package Control: Install Package"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"hmlt",
+				"Set Syntax: HTML (Tcl)"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"disp",
+				"Package Control: Disable Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"theme",
+				"Themr: Next theme"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Project: Close"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"hml",
+				"HTMLBeautify"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"javass",
+				"Set Syntax: JavaScript (Rails)"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			]
+		],
+		"width": 474.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/wwwroot/wx_64fn0g/web",
+		"/D/wwwroot/wx_64fn0g/web/lib",
+		"/D/wwwroot/wx_64fn0g/web/lib/css",
+		"/D/wwwroot/wx_64fn0g/web/lib/js"
+	],
+	"file_history":
+	[
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/A027DB8A_edit.tmp/common.css",
+		"/D/wwwroot/wx_64fn0g/web/lib/css/common.css",
+		"/D/wwwroot/wx_64fn0g/web/ax_chuangke.php",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/B27CA770_edit.tmp/header.php",
+		"/D/wwwroot/wx_64fn0g/web/ax_done.php",
+		"/D/wwwroot/wx_64fn0g/web/ax_pcenter.php",
+		"/D/wwwroot/wx_64fn0g/web/pagelist.html",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/D720FB5F_edit.tmp/usingindex.html",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/E602DADC_edit.tmp/washing_process.html",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/A027DB8A_edit.tmp/using.css",
+		"/D/wwwroot/wx_64fn0g/web/ax_using.php",
+		"/C/Program Files/Git/etc/hosts",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/D720FB5F_edit.tmp/cooperation.html",
+		"/D/wwwroot/wx_64fn0g/web/ax_reg.php",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/12356ADA_edit.tmp/header.php",
+		"/D/wwwroot/ydj_lgx0ok/web/wp-content/themes/bootstrap-basic/header.php",
+		"/D/wwwroot/wx_64fn0g/web/lib/css/hhr.css",
+		"/D/wwwroot/wx_64fn0g/web/liucheng.html",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/90EE437A_edit.tmp/using.css",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/844129E0_edit.tmp/index.html",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/576D73FA_edit.tmp/header.php",
+		"/D/wwwroot/ydj_lgx0ok/web/wp-config.php",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/90EE437A_edit.tmp/hhr.css",
+		"/D/wwwroot/wx_64fn0g/web/hhr_chongzhi.php",
+		"/D/wwwroot/wx_64fn0g/web/hhr_pcenter.php",
+		"/D/wwwroot/wx_64fn0g/web/ax_baoxiu.php",
+		"/D/wwwroot/wx_64fn0g/web/lib/css/using.css",
+		"/D/wwwroot/wx_64fn0g/web/lib/css/responsive.css",
+		"/D/tools/colorpad/colorpad.ini",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/429A9C52_edit.tmp/common.css",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/ED95C67B_edit.tmp/get2.php",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/DD48EBA0_edit.tmp/index.html",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/4E38A7A6_edit.tmp/responsive.css",
+		"/D/wwwroot/test_mln38s/web/get.php",
+		"/D/tools/flashfxp/Cache/~flashfxp/301839EB_edit.tmp/index.html",
+		"/D/tools/flashfxp/Cache/~flashfxp/CAED129B_edit.tmp/common.css",
+		"/D/wwwroot/test_mln38s/web/vendor/jonnyw/php-phantomjs/src/JonnyW/PhantomJs/Resources/config/config.yml",
+		"/D/wwwroot/test_mln38s/web/vendor/jonnyw/php-phantomjs/src/JonnyW/PhantomJs/DependencyInjection/ServiceContainer.php",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/44061195_edit.tmp/header.html",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/510F7A54_edit.tmp/aixi.css",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/B310E0E4_edit.tmp/Index_index.html",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/B39501CB_edit.tmp/index.html",
+		"/D/wwwroot/test_mln38s/web/vendor/symfony/dependency-injection/Tests/Fixtures/yaml/null_config.yml",
+		"/C/Users/Administrator/vendor/jonnyw/php-phantomjs/src/JonnyW/PhantomJs/Resources/config/config.yml",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/2D94E660_edit.tmp/jijincompany.htm",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/DD62BA48_edit.tmp/gupiaohangqing.php",
+		"/D/wwwroot/test_mln38s/web/composer.json",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/DE269D42_edit.tmp/core.php",
+		"/D/wwwroot/test_mln38s/web/vendor/jonnyw/php-phantomjs/src/JonnyW/PhantomJs/Engine.php",
+		"/D/wwwroot/test_mln38s/web/vendor/jaeger/querylist-phantomjs/PhantomJs.php",
+		"/D/wwwroot/test_mln38s/web/vendor/jaeger/querylist/src/Services/PluginService.php",
+		"/D/wwwroot/test_mln38s/web/vendor/autoload.php",
+		"/D/wwwroot/test_mln38s/web/vendor/composer/autoload_real.php",
+		"/C/Users/Administrator/Desktop/phantomjs-2.1.1-windows/examples/hello.js",
+		"/D/tools/flashfxp/Cache/~flashfxp/3D4DAC3B_edit.tmp/hhr.css",
+		"/D/tools/flashfxp/Cache/~flashfxp/9B25C323_edit.tmp/index.html",
+		"/C/Users/Administrator/Desktop/send4/index.html",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/E839C698_edit.tmp/jijincompany.htm",
+		"/D/tools/flashfxp/Cache/~flashfxp/3D4DAC3B_edit.tmp/common.css",
+		"/D/tools/flashfxp/Cache/~flashfxp/3D4DAC3B_edit.tmp/iconfont.css",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/B3C4E08D_edit.tmp/Public_base.html",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/B8341E59_edit.tmp/Public_base.html",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/66FC1C8C_edit.tmp/Public_base.html",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/E089FB7B_edit.tmp/Public_base.html",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/CA78BD5E_edit.tmp/Public_base.html",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/D8D16950_edit.tmp/Public_base.html",
+		"/C/Users/Administrator/Desktop/sent/common.css",
+		"/D/tools/flashfxp/Cache/~flashfxp/1EDC7CF4_edit.tmp/index.html",
+		"/C/Users/Administrator/Desktop/sent/Member/index.html",
+		"/C/Users/Administrator/Desktop/send3/index.html",
+		"/D/tools/flashfxp/Cache/~flashfxp/3D4DAC3B_edit.tmp/responsive.css",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/E839C698_edit.tmp/list_jijin.htm",
+		"/D/Documents/jijincompany.htm",
+		"/D/tools/flashfxp/Cache/~flashfxp/36AC8815_edit.tmp/usingindex.html",
+		"/D/tools/flashfxp/Cache/~flashfxp/1E105B57_edit.tmp/index.html",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/CCC4F9C1_edit.tmp/footer.html",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/A5BABB18_edit.tmp/common.css",
+		"/D/tools/flashfxp/Cache/~flashfxp/AC5487C6_edit.tmp/index.html",
+		"/D/tools/flashfxp/Cache/~flashfxp/36AC8815_edit.tmp/index.html",
+		"/D/tools/flashfxp/Cache/~flashfxp/607324C6_edit.tmp/index.html",
+		"/E/我的坚果云/软件/flashfxp/Cache/~flashfxp/E92FDD65_edit.tmp/footer.html",
+		"/D/tools/flashfxp/Cache/~flashfxp/C9780644_edit.tmp/common.css",
+		"/C/Users/Administrator/Desktop/tiaokuan.html",
+		"/D/tools/flashfxp/Cache/~flashfxp/234FB9F7_edit.tmp/article.html",
+		"/D/tools/flashfxp/Cache/~flashfxp/23839E54_edit.tmp/yue.html",
+		"/D/tools/flashfxp/Cache/~flashfxp/09F2DEC6_edit.tmp/index.html",
+		"/D/tools/flashfxp/Cache/~flashfxp/23839E54_edit.tmp/top.html",
+		"/D/tools/flashfxp/Cache/~flashfxp/23839E54_edit.tmp/header.html",
+		"/D/tools/flashfxp/Cache/~flashfxp/C9780644_edit.tmp/responsive.css",
+		"/D/wwwroot/wx_64fn0g/web/_head.php",
+		"/D/wwwroot/wx_64fn0g/web/bak2-bs/static/css/common.css",
+		"/D/wwwroot/wx_64fn0g/web/index.php",
+		"/D/wwwroot/wx_64fn0g/web/form.php",
+		"/D/wwwroot/wx_64fn0g/web/buttons.php",
+		"/D/wwwroot/wx_64fn0g/web/flex.php",
+		"/D/wwwroot/wx_64fn0g/web/_foot.php",
+		"/D/tools/me/flashfxp/Cache/~flashfxp/14C0446F_edit.tmp/media.css",
+		"/D/tools/me/flashfxp/Cache/~flashfxp/622FD3CE_edit.tmp/index.php",
+		"/D/wwwroot/wx_64fn0g/web/lib/js/slick.min.js",
+		"/D/tools/me/flashfxp/Cache/~flashfxp/622FD3CE_edit.tmp/page_services.php",
+		"/D/wwwroot/wx_64fn0g/web/lib/css/iconfont.css",
+		"/D/wwwroot/wx_64fn0g/web/meta.html",
+		"/D/wwwroot/wx_64fn0g/web/header.html",
+		"/D/wwwroot/wx_64fn0g/web/login.html",
+		"/D/wwwroot/wx_64fn0g/web/register.php",
+		"/D/wwwroot/wx_64fn0g/web/static/css/common.css",
+		"/D/wwwroot/wx_64fn0g/web/css/common.css",
+		"/D/wwwroot/wx_64fn0g/web/register.html",
+		"/D/tools/flashfxp/Cache/~flashfxp/CB2CBCE5_edit.tmp/product.css",
+		"/D/tools/flashfxp/Cache/~flashfxp/88AD966C_edit.tmp/article.css",
+		"/D/tools/flashfxp/Cache/~flashfxp/88AD966C_edit.tmp/style.css",
+		"/D/tools/flashfxp/Cache/~flashfxp/D32790CB_edit.tmp/Article_lists.html",
+		"/C/Users/Administrator/Desktop/老网站2015 NEW/index.htm",
+		"/D/tools/flashfxp/Cache/~flashfxp/F6BEA390_edit.tmp/Page_product.html",
+		"/D/tools/flashfxp/Cache/~flashfxp/46D000B9_edit.tmp/Page_product.html",
+		"/D/tools/flashfxp/Cache/~flashfxp/C6550C39_edit.tmp/index.html",
+		"/D/tools/flashfxp/Cache/~flashfxp/757C7A3A_edit.tmp/Page_product.html",
+		"/D/tools/me/flashfxp/Cache/~flashfxp/622FD3CE_edit.tmp/part_content_product.php",
+		"/D/wwwroot/wx_64fn0g/web/index.html",
+		"/D/wwwroot/wx_64fn0g/web/_foot.html",
+		"/D/wwwroot/wx_64fn0g/web/_head.html",
+		"/D/tools/flashfxp/Cache/~flashfxp/C6550C39_edit.tmp/usingindex.html",
+		"/D/tools/flashfxp/Cache/~flashfxp/95D4600C_edit.tmp/Public_base.html",
+		"/D/tools/flashfxp/Cache/~flashfxp/4BCF013D_edit.tmp/rewrite.conf",
+		"/D/tools/flashfxp/Cache/~flashfxp/01F3DAA2_edit.tmp/Public_base.html",
+		"/D/tools/flashfxp/Cache/~flashfxp/4BCF013D_edit.tmp/.htaccess",
+		"/D/tools/flashfxp/Cache/~flashfxp/55DA6090_edit.tmp/aixi.css"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 112.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"test",
+			"svg",
+			"close",
+			"bg_jb_blue",
+			"weui-btn_default",
+			".btn_fix_bottom a",
+			"/static",
+			"aopuda",
+			"ttl",
+			"</p>",
+			"<p>",
+			"</small></p>",
+			"ol",
+			" id=\"tab",
+			"close",
+			"1",
+			"body_reg",
+			",",
+			"1",
+			"url",
+			"textarea",
+			"sys_get_temp_dir",
+			"config.yml",
+			"function load",
+			"load",
+			"temp",
+			"sys_get_temp_dir",
+			"/",
+			"\\",
+			"</a>　<a",
+			"href=\"javascript:;\"",
+			"a @@@",
+			"<a data-id=\"([^\"]+)\"[^>]*>档案<\\/a>",
+			"<a data-id=\"(\\d+)\"[^>]*>档案<\\/a>",
+			"<a data-id=\"\\d+\"[^>]*>档案<\\/a>",
+			"table_wrap",
+			"tr_{$his[eqcode]}",
+			"s",
+			"all",
+			"ip5",
+			"data.data[i].create_date",
+			"create_date",
+			"ft",
+			"block",
+			"\n    .class{}",
+			"/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6db3f2+0,54a3ee+50,3690f0+51,1e69de+100;Blue+Gloss+%233 */",
+			"45deg",
+			";",
+			"<br>",
+			"<br> ",
+			"__bd ",
+			"-",
+			"weui-cell__bd ",
+			"h2",
+			"wc1",
+			"customPaging",
+			"header_ban",
+			"p1",
+			"footer",
+			".html\"",
+			"r.html\"",
+			"col-md-24",
+			"24",
+			"detail_pro4",
+			"pro_ban",
+			"emsp",
+			"ps",
+			"-6",
+			"6",
+			"container",
+			"col-md-4",
+			"col-md-8",
+			"pro",
+			".index .locale .carousel-control",
+			".locale .carousel-control",
+			"carousel-control",
+			"SimHei",
+			"src",
+			"url",
+			"php",
+			"css",
+			"<img src=\"/theme/mobile/image/bottom-icon1.png\">在线咨询</a>",
+			"/pro/6",
+			"font:100 ",
+			"font-weight: 100",
+			"font: 100 ",
+			"font-weight: 100",
+			"font: 100 ",
+			"100",
+			"maincontent",
+			"Recommend",
+			"frmGuestBook",
+			"yy23",
+			"TELEPHONE ",
+			"items5",
+			"guyuanchundhamicroalgaeessence",
+			"shuxintongdhamicroalgaeessence",
+			"microalgaedhaedibleblendoil",
+			"public nu",
+			"qr",
+			"ChannelName",
+			"/product/296.html",
+			"/product/292.html",
+			"    ",
+			"\n    ",
+			"new0310",
+			"font-weight: 100",
+			"100",
+			"font: 100 ",
+			"100",
+			"{$Images}",
+			"en",
+			"yyfw",
+			"/tyngfdz/dxbwdz",
+			"div",
+			"pll",
+			"http://aopuda.ce365.cn",
+			"dropdown-menu",
+			"/buy/?a",
+			"/tyngfdz/dxbwdz",
+			"<li>",
+			"offset",
+			"seemore",
+			"fengping",
+			"logo",
+			"contactus",
+			"dha/",
+			"body_p_76"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"</a><a",
+			"a href=\"javascript:;\"",
+			"<a @@@ data-id=\"$1\">档案</a>",
+			"col-md-12",
+			".index #sliderLocale .carousel-control",
+			".index #sliderLocale",
+			"microsoft yahei",
+			"font:400 ",
+			"font-weight: 400",
+			"font: 400 ",
+			"font-weight: 400",
+			"font: 400 ",
+			"arial",
+			"font-weight: 400",
+			"D42625",
+			"065FA3",
+			"aopuda.ce365.cn",
+			"utf8",
+			"utf8_general_ci",
+			"utf8mb4_unicode_ci",
+			"aopuda.ce365.cn",
+			"map",
+			".sinfo.prosinfo",
+			".littleban_pro.littleban",
+			"024fa3",
+			"{}",
+			"arial",
+			"{}",
+			"#main_area ",
+			"f08200",
+			"font: 400 ",
+			"/>\n",
+			"BA8A3E",
+			"D9D9D9",
+			"BA8A3E",
+			"BA8B3B",
+			"/lib/js/",
+			"/lib/css/",
+			"/Lib/js/",
+			"/Lib/css/",
+			"width:auto",
+			"font-weight: 500; ",
+			"font: 500",
+			".navbar_wap",
+			"http://www.lercn.com/upload/",
+			"http:/\n",
+			"src=\"/http://www.lercn.com\n",
+			"\n",
+			"",
+			"index_products",
+			".a_fwly",
+			"#2da439",
+			"index_lingyu",
+			"",
+			"\\.",
+			"",
+			" .exe|",
+			"item",
+			"\"item\" data-aos=\"zoom-in\" rel= ",
+			"",
+			"item",
+			"/lib/images/",
+			"#index_hzpp",
+			"lib",
+			"281760068",
+			"儿童阅读课程",
+			"",
+			"1200px",
+			" src=\"{$Images}",
+			"../images/",
+			"font-size: 16px;",
+			"font-size: 23px;",
+			"16px/",
+			"ddd",
+			"body_about h2.ttl",
+			"uploads",
+			"cp",
+			"src=\"/upload/product/ganguangji-2/",
+			"div",
+			"reason",
+			"<td style=\"border:1px #AEAFF2 dashed;border-collapse: collapse;padding: 10px\">",
+			"src=\"/template/[field:css_color]/images/",
+			" </td><td class='c'></td>",
+			"src=\"/template/[field:css_color]/images/",
+			"\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+			"\"/template/[field:css_color]/images",
+			"src=\"/template/[field:css_color]/images",
+			"/template/[field:css_color]/images",
+			"images",
+			"/template/[field:css_color]/images",
+			"D2F1DC",
+			"2DBE60",
+			"simsun",
+			"#A40001",
+			"{}",
+			"#index_news",
+			"index_products",
+			"0494DD",
+			"{$Images}",
+			"l",
+			"26650",
+			"a target='_blank' class='file_pdf' href=\"",
+			"href=\"/uploads/pdf/18650/",
+			"/",
+			"FFFFFF",
+			"subchannellist",
+			"{",
+			"simsun",
+			"Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,Arial,sans-serif",
+			"SegoeUI,\"Helvetica Neue\",Helvetica,Arial,sans-serif",
+			"{",
+			" <li> <a href=\"[arcurl]\"><img src=\"[path]\"><h3>[productname]</h3></a></li>",
+			"",
+			"<hr><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>",
+			"sNav",
+			".body_index  .pic4",
+			"item",
+			"item1",
+			"\n                            <img src=\"/template/[field:css_color]/images/pro.jpg\" />\n             \n",
+			"<h3>甄子丹KJKLKL</h3>\n                                <h4>曾经我闷3送到岁的速度</h4>",
+			"\n                            <div class=\"tooltip img default\">\n                                <img src=\"/template/[field:css_color]/images/pro.jpg\" />\n                                <a href=\"#\" target=\"_blank\"><h3>甄子丹KJKLKL</h3>\n                                <h4>曾经我闷3送到岁的速度</h4></a>\n                            </div>\n                        ",
+			"tooltip img default",
+			" class=\"img default\"",
+			"img src",
+			" ",
+			"",
+			"<a class=\"outer\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.386872353297,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 361.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "weixin.sublime-project",
+	"replace":
+	{
+		"height": 76.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"func",
+				"wp-includes\\functions.php"
+			],
+			[
+				"fu",
+				"wp-includes\\js\\tinymce\\utils\\form_utils.js"
+			],
+			[
+				"medi",
+				"Public\\css\\media.css"
+			],
+			[
+				"me",
+				"Public\\meta.html"
+			],
+			[
+				"sty",
+				"Public\\css\\style.css"
+			],
+			[
+				"foot",
+				"Public\\footer.html"
+			],
+			[
+				"in",
+				"Channel\\index.html"
+			],
+			[
+				"meta",
+				"Public\\meta.html"
+			],
+			[
+				"s",
+				"zuoyoushou\\s_shangjia.html"
+			],
+			[
+				"map",
+				"D:\\wwwroot\\tengqianli_hnuxt4\\web\\map.html"
+			],
+			[
+				"contac",
+				"Channel\\contact.html"
+			],
+			[
+				"page",
+				"Channel\\page_about.html"
+			],
+			[
+				"header",
+				"Public\\header.html"
+			],
+			[
+				"cont",
+				"js\\content.js"
+			],
+			[
+				"coen",
+				"css\\content.css"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"conte",
+				"css\\content.css"
+			],
+			[
+				"chaye",
+				"Channel\\chanye.html"
+			],
+			[
+				"show",
+				"Info\\showarticle.html"
+			],
+			[
+				"pro",
+				"Channel\\product.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 267.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

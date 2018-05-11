@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="/lib/css/weui.min.css">
+    <link rel="stylesheet" href="/lib/css/jquery-weui.min.css">
+    <title>前端页面列表</title>
+    <style>
+    a {
+        line-height: 3;
+        font-size: 15px;
+        color: #333;
+    }
+    
+    a:focus {
+        background-color: #f8f8f8
+    }
+    
+    li.ttl {
+    	list-style: none;
+        line-height: 1.8;
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 0;
+    }
+    
+    a {
+        font-size: 14px;
+        color: #0c0c0c;
+        text-decoration: none;
+        line-height: 30px
+    }
+    
+    a:hover {
+        color: red;
+    }
+    
+ 
+    
+    li {
+        /*list-style: none;*/
+        margin: 5px  auto;
+        width: 80%;
+    }
+    .demos-content-padded{padding: 20px;}
+    .dlt{display: inline-block;}
+    .dlt:after{content: "";display: block;position: relative;width: 100%;height: 1px;background: red;top:-16px;}
+    </style>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+    jQuery(document).ready(function($) {
+        $('#chk').change(function(event) {
+            if ($(this).is(':checked')) {
+                $('a').attr({
+                    "target": "_blank"
+                })
+            } else {
+                $('a').attr({
+                    "target": "_self"
+                })
+            }
+        });
+    });
+    </script>
+</head>
+
+<body>
+    <div class="demos-content-padded">
+        <input type="checkbox" name="" id="chk">
+        <label for="#chk">新窗口</label>
+        <ul>
+            <li class="ttl">用户</li>
+            <li><a class="" href="ax_reg.php">用户注册</a></li>
+            <li><a class="" href="ax_pcenter.php">个人中心</a></li>
+            <li><a class="dlt" href="ax_chongzhi.php">APP充值</a></li>
+            <li><a class="dlt" href="ax_chongzhi2.php">充值选择金额</a></li>
+            <li><a class="" href="ax_baoxiu.php">报修</a></li>
+            <li><a class="" href="ax_baoxiu_success.php">报修提交成功</a></li>
+            <li><a class="" href="ax_using.php">使用中+洗车流程</a></li>
+            <li><a class="" href="ax_done.php">使用完成</a></li>
+            <li><a class="" href="ax_share.php">分享</a></li>
+            <li><a class="" href="ax_tousu.php">投诉</a></li>
+            <li><a class="" href="ax_chuangke.php">创客</a></li>
+            <li><a class="" href="ax_chuangke_ziliao.php">创客提交资料</a></li>
+        </ul>
+        <ul>
+            <li class="ttl">合伙人</li>
+            <li><a href="hhr_reg.php">合伙人登录</a></li>
+            <li><a href="hhr_pcenter.php">合伙人营收数据</a></li>
+        </ul>
+        <ul>
+            <li class="ttl">物业</li>
+            <li><a href="wuye_reg.php">物业登录</a></li>
+            <li><a href="wuye_baoxiu.php">物业水电费/报修</a></li>
+        </ul>
+        <ul>
+            <li class="ttl">运维</li>
+            <li><a href="yw_login.php">运维登录</a></li>
+            <li><a href="yw_weixiu.php">运维维修记录</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>

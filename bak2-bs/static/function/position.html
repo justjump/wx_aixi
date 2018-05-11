@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>登录界面</title>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/message.css"/>
+    <script src="js/common.js"></script>
+    <script src="../js/mui.min.js"></script>
+    <style>
+    	body{
+				background-color: #EFEFF4;
+				
+			}
+		.btn,.btn:hover,.btn:focus{
+				display: block;
+				margin: 20px auto;
+				background:#8CD4F5;
+				color: #fff;
+			}
+			#pos{
+				padding: 30px;
+				color: #666;
+			}	    	    	
+    </style>
+</head>
+<body>
+	<header id="header">
+		<a href=""><i class="mui-action-back icon-angle-left" onclick="back()"></i></a>
+		<p id="title">位置</p>
+	</header>
+	<div class="contianer">
+		<button class="btn" onclick="getLocation()">获取我的位置</button>
+		<div id="pos"></div>
+	</div>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script type="text/javascript">	
+	 //显示地理位置
+        var pos=document.getElementById("pos");
+        function getLocation(){
+		if(plus.geolocation){
+			plus.geolocation.getCurrentPosition(showPosition);
+		}else{
+			pos.innerHTML="获取位置信息失败";
+		}
+		}
+		function showPosition(position){
+			pos.innerHTML="当前维度为:"+position.coords.latitude+
+			"<br/>当前经度为："+position.coords.longitude+
+			"<br/>当前位置："+position.addresses;
+		}		
+	
+</script>	
+</body>
+</html>

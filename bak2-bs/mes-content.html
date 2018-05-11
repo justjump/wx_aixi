@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>登录界面</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <script src="js/mui.min.js"></script>
+    <script src="js/common.js"></script>
+    <style>
+    	body{
+				background-color: #EFEFF4;
+			}
+    	.contianer{
+    		padding: 0 10px;
+    	}
+    	
+           .dialog-top{
+           	padding: 20px 20px;
+           	widows: 100%;
+           	height: 500px;
+           
+           }
+           .dialog-down{
+           	width: 100%;
+           	position: fixed;
+           	bottom: 0;
+           }
+           .send{
+           	background: #fff;
+           	float: left;
+           	height: 40px;
+           	width: 75%;
+           }
+           .btn,.btn:hover,.btn:visited{
+           	float: left;
+           	height: 40px;
+           background: #0fb4f4;
+           	margin-left: 10px;
+           	color: #fff;
+           	outline: none;
+           	border: none;
+           }
+    </style>
+</head>
+<body>
+	<header id="header">
+		<a href=""><i class="mui-action-back icon-angle-left" onclick="back()"></i></a>
+		<p id="title"></p>
+	</header>
+	<div class="contianer">
+		<div class="dialog">
+			<div class="dialog-top" id="mes-top"></div>
+			 <div class="dialog-down">
+		    	<input type="text" id="text" class="send form-control" placeholder="">
+		    	<button class="btn" id="submit" type="submit" onclick="send()">发送</button>
+		    </div>	
+		</div>
+		   	    			    
+	</div>
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">	
+	function send(){
+		var text=document.getElementById("text").value;
+		var top=document.getElementById("mes-top").innerHTML;				
+        if(text.length>0){
+        	document.getElementById("mes-top").innerHTML=top+text+"<br>";		
+        }else{
+        	alert("不能为空");
+        	
+        }
+       document.getElementById("text").value="";    
+	}
+	mui.plusReady(function(){
+				var self=plus.webview.currentWebview();
+				document.getElementById("title").innerHTML=self.name;
+			})
+</script>
+</body>
+</html>
